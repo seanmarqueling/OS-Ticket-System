@@ -1,6 +1,7 @@
 # OS-Ticket-System
 How to setup os Ticketing System
-Setup overview
+
+os Ticket Software Setup overview:
 - Setup a Virtual Machine in Azure
 - Install the osTicket requirements
 - Install osTicket itself
