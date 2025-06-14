@@ -157,16 +157,65 @@ On this screen we can see that there are a number of extensions that are not ena
 We will ned to go back in IIS to enable them.
 
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture27.png?raw=true)
+
+- Go in the IIS and on the left hand side
+- Click on osTIcket
+- Click on PHP Manager
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture28.png?raw=true)
+
+- Click on enable or disable an extension
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture29.png?raw=true)
+
+We want to enable the following (right-click on each item and select enable):
+- php_imap.dll
+- php_intl.dll
+- php_opcache.dll
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture30.png?raw=true)
+
+Refresh the browser to make sure those extensions are now enabled.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture31.png?raw=true)
+
+Now go back to Windows Explorer and go to the following directory:
+- Windows(C:)/inetpub/wwwroot/osTicket/include
+- Locate a file called ost-sampleconfig.php
+- Rename the file to ost-config.php
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture32.png?raw=true)
+
+- Right click ost-config.php
+- Select Properties
+- Click on System
+- Select Advanced
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture33.png?raw=true)
+
+- Click on Disable inheritance
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture34.png?raw=true)
+
+- Select Remove all inherited permissions from this project
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture35.png?raw=true)
+
+- Click on Add
+- for Principal leave it as Select a principal
+- In Enter the object name to select - type in Everyone
+- Click on Check Names
+- Click on OK
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture36.png?raw=true)
+
+- Click on Full Control
+- Click Ok to Everything
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture37.png?raw=true)
+
+We are going to continue setup after enabling the extensions - click on Continue
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture38.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture39.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture40.png?raw=true)
