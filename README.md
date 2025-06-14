@@ -55,16 +55,60 @@ We need to turn on a couple of features before we install the os Ticketing Syste
 - Select 'CGI'
 
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture9.png?raw=true)
+
+Open up the osTicket-Installation-Files - we will now install PHPManager & rewrite_amd64.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture10.png?raw=true)
+
+Install PHP and rewrite - say yes and click continue/finish.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture11.png?raw=true)
+
+We will now need to create a new directory in the C Drive.
+- Open up Windows Explorer
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture12.png?raw=true)
+
+Create a foilder in the C drive and call in PHP.
+
+We will unzip PHP7.3.8(php-738-nts-Win32-VC15x86.zip)
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture13.png?raw=true)
+
+Next we need to install VC_redist.x86 - click on install and move on.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture14.png?raw=true)
+
+Now we need to install mysql-5.5.62-win32
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture15.png?raw=true)
+
+Select Typical Setup and then select Standard Configuration.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture16.png?raw=true)
+
+Click next
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture17.png?raw=true)
+
+For our osticket admin login information:
+- user: adminuser
+- password: root
+
+In the setup:
+- New root password: root
+- Confirm: root
+- Click next / continue until the end
+- (Note, for the sake of a lab we are using these as passwords - do not use them in real settings)
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture18.png?raw=true)
+
+Now in order to use the files that we installed we need to look up IIS (Internet Information Service Manager) in Windows.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture19.png?raw=true)
+
+When that opens, select PHP Manager.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture20.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture21.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture22.png?raw=true)
