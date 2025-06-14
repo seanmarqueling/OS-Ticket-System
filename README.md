@@ -27,15 +27,18 @@ Click on create a VM.
 - username: labuser
 - Password: osTicketPassword1
 - Click on Review + Create
-
-![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture4.png?raw=true)
+![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/99.png?raw=true)
 
 Copy the Public IP Address for the VM. We are going to use RDP to get into the VM.
 
-![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture5.png?raw=true)
+![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture4.png?raw=true)
 
 Once in the VM, open up Microsoft Edge and use the following link to download 
 [osTicket](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)
+
+![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture5.png?raw=true)
+
+
 
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture7.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture8.png?raw=true)
