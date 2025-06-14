@@ -287,8 +287,22 @@ Here is the login page link.
 - Password: Password1
 
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture48.png?raw=true)
+
+This is the first page for the ticketing system.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture49.png?raw=true)
+
+[End User Portal](https://localhost/osTicket)
+This page is for the end users to submit their tickets for IT.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture50.png?raw=true)
+
+Now that the software is installed - we need to do some post installation setup for osTicket.
+
+## Instructions - Setup up osTicket with roles, rules, teams, SLAs
+
+We need to make sure we are on the admin page, to do this we need to click in the upper right hand corner if it says Admin Panel. This will take us to the admin page. However, if it says Agent Panel in the upper right hand corner, we are already on the admin page.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture51.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture52.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture53.png?raw=true)
