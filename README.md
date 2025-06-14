@@ -304,29 +304,153 @@ Now that the software is installed - we need to do some post installation setup 
 We need to make sure we are on the admin page, to do this we need to click in the upper right hand corner if it says Admin Panel. This will take us to the admin page. However, if it says Agent Panel in the upper right hand corner, we are already on the admin page.
 
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture51.png?raw=true)
+
+- Click on Roles
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture52.png?raw=true)
+
+- Click on Add New Role
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture53.png?raw=true)
+
+We will call this new role 'Supreme Admin'
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture54.png?raw=true)
+
+After naming the role
+- Click on Permissions
+- Check Everything
+- Click on Tasks
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture55.png?raw=true)
+
+- Select everything on tasks
+- Click on Add Role
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture56.png?raw=true)
+
+Supreme Admin rols is now created.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture57.png?raw=true)
+
+Now we are going to create a new agent.
+- Click on Agents
+- Click on Departments
+- Click Add New Department
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture58.png?raw=true)
+
+- Parent: Top-Level Department
+- Name: SysAdmins
+- Click on create
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture59.png?raw=true)
+
+SysAdmins role is now created.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture60.png?raw=true)
+
+Now we are going to add teams.
+- Click on Agents
+- Click on Teams
+- Click on Add New Team
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture61.png?raw=true)
+
+We will call the team:
+- Name: Online Banking
+- Team Lead: Josh Cypress (we will have to add his information during this process)
+- Click on Members
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture62.png?raw=true)
+
+Josh Cypress does not exist in the system, we need to add their agent information:
+- Name: Josh
+- Last Name: Cypress
+- Email: JCypress999999999@gmail.com
+- Department: Support
+- Primary Role: Supreme Admin
+- Password: Labuser123
+- Click on Create
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture63.png?raw=true)
+
+After that is created:
+- Click on Agents
+- Click on Members
+- Enter in your Name
+- Click on Create Team
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture64.png?raw=true)
+
+Online banking team is now created.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture65.png?raw=true)
+
+We now need to create a setting to allow Users to create tickets on osTicket without requiring an account:
+- Click on settings
+- Click on Users
+- Click on Settings
+- Leave all the fields as they are and make sure Require registration and login to create tickets is not checked.
+- Save Changes
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture66.png?raw=true)
+
+We are now goign to add two agents named Jane Doe and John Doe to the system:
+- Click on Agents
+- Click on Agents
+- Select Add New Agent
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture67.png?raw=true)
+
+- NameL Jane Doe
+- Email Address: JDoe999999999@gmail.com
+- Username: Jane
+- Click on Set Password
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture68.png?raw=true)
+
+- Uncheck Send the agent a password reset email
+- Passowrd: Password1
+- Do not check Require password change at next login
+- Select Update
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture69.png?raw=true)
+
+Go to Access:
+- Primary Department: SysAdmins
+- Role: Supreme Admin
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture70.png?raw=true)
+
+Go to Teams:
+- Team: Online Banking
+- Click Create
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture71.png?raw=true)
+
+- NameL John Doe
+- Email Address: JnDoe999999999@gmail.com
+- Username: John
+- Click on Set Password
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture72.png?raw=true)
+
+- Uncheck Send the agent a password reset email
+- Passowrd: Password1
+- Do not check Require password change at next login
+- Select Update
+  
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture73.png?raw=true)
+
+Go to Access:
+- Primary Department: Support
+- Role: View Only
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture74.png?raw=true)
+
+Both agents are now created.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture75.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture76.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture77.png?raw=true)
