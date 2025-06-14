@@ -9,12 +9,34 @@ os Ticket Software Setup overview:
 
 ## Instruction - Setup Azure Network
 
+From the home screen of Azure, either select Virtual Machine or enter it in the search bar on top.
 
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/1.png?raw=true)
+
+Click on create a VM.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/2.png?raw=true)
+
+- Resource Group - osTIcket
+- Virtual Machine Name: osticket-vm
+- image: Windows10 Pro, version 22H2 - x64 Gen2
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture3.png?raw=true)
+
+- Size: Standard_D2s_v3 - 2vcpus,8 GiB memory
+- username: labuser
+- Password: osTicketPassword1
+- Click on Review + Create
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture4.png?raw=true)
+
+Copy the Public IP Address for the VM. We are going to use RDP to get into the VM.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture5.png?raw=true)
+
+Once in the VM, open up Microsoft Edge and use the following link to download 
+[osTicket](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture7.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture8.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture9.png?raw=true)
