@@ -452,18 +452,100 @@ Go to Access:
 Both agents are now created.
 
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture75.png?raw=true)
+
+Next we are going to go into the Agent Panel and create a new End User.
+- Click on Agent Panel on the top right.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture76.png?raw=true)
+
+- Go to Users
+- Click on Add User
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture77.png?raw=true)
+
+- Email Address: kathy999999999@gmail.com
+- Full Name: Kathy Bates
+- Click on Add User
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture78.png?raw=true)
+
+Last part of the setup, we will now add SLA's (Service Level Agreements) for our ticketing system.
+
+- Go back into the Admin Panel
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture79.png?raw=true)
+
+- Click on Manage
+- Click on SLA
+- Click on Add New SLA Plan
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture80.png?raw=true)
+
+Name: Sev-A
+Grace Period: 1
+Schedule: 24/7
+Click on Add Plan
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture81.png?raw=true)
+
+- Click on Add New SLA Plan
+- Name: Sev-B
+- Grace Period: 4
+- Schedule: 24/7
+- Click on Add Plan
+
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture82.png?raw=true)
+
+- Click on Add New SLA Plan
+- Name: Sev-C
+- Grace Period: 8
+- Schedule: Monday - Friday 8am - 5pm with U.S. Holidays
+- Click on Add Plan
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture83.png?raw=true)
+
+After the SLA's are created we need to create the Help Topic for them:
+- Click on Manage
+- Click on Help Topics
+- Click on Add New Help Topic
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture84.png?raw=true)
+
+- Topic: Business Critical Outage
+- Parent Topic: Report a Problem
+- Click on Add Topic
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture85.png?raw=true)
+
+- Click on Add New Help Topic
+- Topic: Personal Computer Issues
+- Parent Topic: Report a Problem
+- Click on Add Topic
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture86.png?raw=true)
+
+- Click on Add New Help Topic
+- Topic: Equipment Request
+- Parent Topic: General Inquiry
+- Click on Add Topic
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture87.png?raw=true)
+
+- Click on Add New Help Topic
+- Topic: Password Reset
+- Parent Topic: Report a Problem
+- Click on Add Topic
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture88.png?raw=true)
+
+- Click on Add New Help Topic
+- Topic: Other
+- Parent Topic: General Inquiry
+- Click on Add Topic
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture89.png?raw=true)
+
+Here are all of the Help Topics that were created.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture90.png?raw=true)
