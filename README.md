@@ -217,15 +217,75 @@ Now go back to Windows Explorer and go to the following directory:
 We are going to continue setup after enabling the extensions - click on Continue
 
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture38.png?raw=true)
+
+The following fields need to be filled out (Username and Password are the most important:
+- Helpdesk Name: Sean's Help Desk
+- Default Email: sean.m.it@gmail.com
+- First Name: Sean
+- Last Name: Marqueling
+- Email Address: me@seanmit.com
+- Username: adminuser
+- Password: Password1
+
+Before we finish and click on  install, we need to install HeidiSQL
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture39.png?raw=true)
+
+Go back to osTicket-Installation-Files and open up HeidiSQL_12.3.06589_Setup
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture40.png?raw=true)
+
+- Click on I accept the agreement
+- Click on next all the way through
+- Click on Install
+- Click on Finsh
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture41.png?raw=true)
+
+We do not need to download and isntall build 7066 - click on skip.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture42.png?raw=true)
+
+With HeidiSQL open:
+- Click on New
+- User: root
+- Password: root
+- Click on Open
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture43.png?raw=true)
+
+- Right click on Unnamed
+- Select Create New
+- Select Database
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture44.png?raw=true)
+
+- Name: osTicket
+- Click on OK
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture45.png?raw=true)
+
+Go back to osTIcket Installation and enter in the following:
+- Database: osTicket
+- username: root
+- password: root
+- Select Install Now
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture46.png?raw=true)
+
+Go back to HeidiSQL Database information
+- Right click on osTIcket
+- Click on Refresh
+We should now see the information for the osTicket Database populate on the right side.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture47.png?raw=true)
+
+
+Here is the login page link.
+[osTicket Login](http://localhost/osTicket/scp/login.php)
+- Username: adminuser
+- Password: Password1
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture48.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture49.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture50.png?raw=true)
