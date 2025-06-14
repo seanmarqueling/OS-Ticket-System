@@ -110,12 +110,52 @@ Now in order to use the files that we installed we need to look up IIS (Internet
 When that opens, select PHP Manager.
 
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture20.png?raw=true)
+
+- Click on Register new PHP Version
+- Click on the 3 dots
+- Look up PHP folder on the C Drive
+- Select php-cgi
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture21.png?raw=true)
+
+- Click on the left side bar - osticket-vm (osticket-vm\lab)
+- On the right side bar click on Stop
+- Click on Start (this will restart the server)
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture22.png?raw=true)
+
+Go back to osTicket-Installation-Files folder. We are going to unzip osTIcket-v1.15.8.
+
+Extract the folder into osTicket-Installation-Files folder.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture23.png?raw=true)
+
+Copy and paste the upload folder to C -> inetpub -> wwwroot
+
+Rename upload to osTicket
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture24.png?raw=true)
+
+After renaming the file, go back to the IIS and restart the server by clicking on stop and then start.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture25.png?raw=true)
+
+Now are going to open up the Installer for osTicket.
+
+In the IIS:
+- Click on Sites
+- Click on Default Web Site
+- Click on osTicket
+- On the right side bar - click on Browse *:80 (http)
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture26.png?raw=true)
+
+We are now looking at the the Installer for osTicket.
+
+On this screen we can see that there are a number of extensions that are not enabled.
+
+We will ned to go back in IIS to enable them.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture27.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture28.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture29.png?raw=true)
