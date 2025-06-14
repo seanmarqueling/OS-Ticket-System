@@ -7,6 +7,9 @@ os Ticket Software Setup overview:
 - Install osTicket itself
 - Do the after-installation configuration of osTicket
 
+## Instruction - Setup Azure Network
+
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/1.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/2.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture3.png?raw=true)
