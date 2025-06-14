@@ -36,12 +36,24 @@ Copy the Public IP Address for the VM. We are going to use RDP to get into the V
 Once in the VM, open up Microsoft Edge and use the following link to download 
 [osTicket](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)
 
+After the file is downloaded, unzip it and put the folder on the desktop and name it 'os Ticket-Installation-Files'.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture5.png?raw=true)
 
-
+Now we have to make some changes to the VM - go in the control panel and click on Uninstall a program.
 
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture7.png?raw=true)
+
+Click on Turn Windows Features on or off.
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture8.png?raw=true)
+
+We need to turn on a couple of features before we install the os Ticketing System.
+- Click on 'Internet Information Services'
+- Click on 'World Wide Web Services'
+- Click on Application Development Features'
+- Select 'CGI'
+
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture9.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture10.png?raw=true)
 ![image](https://github.com/seanmarqueling/OS-Ticket-System/blob/main/Picture11.png?raw=true)
